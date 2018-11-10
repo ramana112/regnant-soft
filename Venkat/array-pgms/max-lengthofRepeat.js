@@ -8,7 +8,7 @@ for(var i=0;i<a.length;i++)
     {
        if(a[i]==0 && a[j]==0)
        {
-          startPosition=i;  
+          start=i;  
              count++;
        }
        else
@@ -18,7 +18,7 @@ for(var i=0;i<a.length;i++)
     }
                  if(length<count)
               {
-                  final=startPosition;
+                  final=start;
                  length=count;
                  
               }
